@@ -64,7 +64,7 @@ with st.sidebar:
     options = ["Home","Departamentos","Fluxos","Informações"],
     icons = ["house","book","envelope", "list-task", 'gear'],
     menu_icon = "intersect",
-    default_index = 0,
+    default_index = 3,
     styles={ 
          "container": {"margin":"0px"},
           "nav-link": {"font-size": "20px", "text-align": "left", "margin":"0px", "--hover-color": "rgba(255, 255, 255, 0.5)"},     
