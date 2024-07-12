@@ -9,8 +9,6 @@ import altair as alt
 
 
 # Funções ------------------------
-
-@st.cache_data
 def load_data():
     # Carregue seus dados aqui, substitua 'seu_dataframe.csv' pelo nome do arquivo CSV que contém seus dados
     data = pd.read_excel("Dados.xlsx")
